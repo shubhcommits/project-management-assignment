@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>PROJECT MANAGEMENT TOOL</title>
+</head>
+<body>
+  <header class="head_class">
+    <h1 class="header_title">📜project management tool</h1>
+  </header>
+  <main class="main_class">
+    <section id="task-form" class="task-form">
+      <h2 class="title_class">ASSIGN TASKS HERE📋</h2>
+      <div class="input-container">
+        <input type="text" id="task-title" class="input_task_class" placeholder="assign tasks...">
+        <button id="create-task" class="create_button">Create Task</button>
+      </div>
+    </section>
+    <section id="task-list" class="task-list">
+      <h2 class="section-title">TASKS ASSIGNED 📃</h2>
+      <ul id="tasks" class="tasks-list"></ul>
+    </section>
+    <h3 class="conversation">TEAM CONVERSATION 💬</h3>
+    <section class="chat-section">
+      <div class="chat-container">
+        <div class="chat-messages" id="chatMessages"></div>
+        <div class="chat-input">
+          <input type="text" id="chatInput" placeholder="Type your message">
+          <button id="sendMessageButton">Send</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
